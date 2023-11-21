@@ -32,36 +32,34 @@ We are making improvements to release React, Vuejs, Angular and Laravel versions
 - Easily Customizable
 - Authentication Pages
 - 5 Icons Sets
-- 90+ HTML Pages
+- 100+ HTML Pages
 - 3 Web Apps (Chat, Email & Todo List App)
 - Google Fonts
 - Fully Responsive Design
 
 ## Plugins & Libraries
 
-Plugins and libraries come with the project. You can use it without the need for any internet connection. Plugins are very easy to use and include on the page.
-
 - [Ckeditor](https://adminbold.com/bootstrap-docs/ckeditor)
 - [Clock Picker](https://adminbold.com/bootstrap-docs/clockpicker)
-- DataTable
-- Date Range Picker
-- Dropzone
-- Form Repeater
-- Form Wizard
-- Input Mask
-- Intro.js
-- Lightbox
-- Nestable
-- Prism
-- Quill
-- Range Slider
-- Rating
-- Select2
-- Slick Slide
-- Tags Input
-- Vmap
-- Masonry
-- Apex Chart
-- Chart.js
-- Justgage Chart
-- Morsis Chart
+- [DataTable](https://adminbold.com/bootstrap-docs/datatable)
+- [Datepicker](https://adminbold.com/bootstrap-docs/datepicker)
+- [Dropzone](https://adminbold.com/bootstrap-docs/file-upload)
+- [Form Repeater](https://adminbold.com/bootstrap-docs/form-repeater)
+- [Form Wizard](https://adminbold.com/bootstrap-docs/form-wizard)
+- [Input Mask](https://adminbold.com/bootstrap-docs/input-mask)
+- [Intro.js](https://adminbold.com/bootstrap-docs/introjs)
+- [Lightbox](https://adminbold.com/bootstrap-docs/lightbox)
+- [Nestable](https://adminbold.com/bootstrap-docs/nestable)
+- [Code Highlighter](https://adminbold.com/bootstrap-docs/code-highlighter)
+- [CKEditor](https://adminbold.com/bootstrap-docs/ckeditor)
+- [Range Slider](https://adminbold.com/bootstrap-docs/range-slider)
+- [Rating](https://adminbold.com/bootstrap-docs/rating)
+- [Select2](https://adminbold.com/bootstrap-docs/select2)
+- [Tags Input](https://adminbold.com/bootstrap-docs/tags-input)
+- [JQVMAP](https://adminbold.com/bootstrap-docs/vector-map)
+
+## Plugins & Libraries
+- [Apex Chart](https://adminbold.com/bootstrap-docs/apexchart)
+- [Chart.js](https://adminbold.com/bootstrap-docs/chartjs)
+- [Justgage Chart](https://adminbold.com/bootstrap-docs/justgage)
+- [Morsis Chart](https://adminbold.com/bootstrap-docs/morsis)
