@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/adminkit/adminkit"><img src="https://adminbold.com/logo.svg" alt="AdminBold is a free admin template based on Bootstrap 5." width="96"></a>
+  <img src="https://adminbold.com/logo.svg" alt="AdminBold is a free admin template based on Bootstrap 5." width="96">
 </p>
 
 <h1 align="center">AdminBold</h1>
