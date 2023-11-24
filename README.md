@@ -4,7 +4,7 @@
 
 <h1 align="center">AdminBold</h1>
 
-AdminBold is an admin control panel template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. AdminBold reduces coding time and saves you time to quickly launch your new project
+AdminBold is an admin dashboard template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. AdminBold reduces coding time and saves you time to quickly launch your new project
 
 ## Preview
 
