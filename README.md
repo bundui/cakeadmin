@@ -33,27 +33,27 @@ git clone https://github.com/bundui/adminbold.git
 - Fully Responsive Design
 
 ## Pages
-| Page name      | Url                                                                  |
-|----------------|----------------------------------------------------------------------|
-| Dashboard      | [Open the link](https://adminbold.com/bootstrap-demo/dashboard)      |
-| Orders         | [Open the link](https://adminbold.com/bootstrap-demo/orders)         |
-| Products       | [Open the link](https://adminbold.com/bootstrap-demo/product-list)   |
+| Page name | Url |
+|--|--|
+| Dashboard | [Open the link](https://adminbold.com/bootstrap-demo/dashboard)    |
+| Orders | [Open the link](https://adminbold.com/bootstrap-demo/orders)       |
+| Products | [Open the link](https://adminbold.com/bootstrap-demo/product-list) |
 | Product detail | [Open the link](https://adminbold.com/bootstrap-demo/product-detail) |
-| Shopping Cart  | [Open the link](https://adminbold.com/bootstrap-demo/shopping-cart)  |
-| Customers      | [Open the link](https://adminbold.com/bootstrap-demo/customers)      |
-| Invoices       | [Open the link](https://adminbold.com/bootstrap-demo/invoices)       |
-| Chat app       | [Open the link](https://adminbold.com/bootstrap-demo/chats)          |
-| Email app      | [Open the link](https://adminbold.com/bootstrap-demo/email)          |
-| Todo app       | [Open the link](https://adminbold.com/bootstrap-demo/todo-list)      |
-| Profile        | [Open the link](https://adminbold.com/bootstrap-demo/profile-posts)    |
-| Users          | [Open the link](https://adminbold.com/bootstrap-demo/user-list)    |
-| Login          | [Open the link](https://adminbold.com/bootstrap-demo/login)    |
-| Register       | [Open the link](https://adminbold.com/bootstrap-demo/register)    |
-| 404 page       | [Open the link](https://adminbold.com/bootstrap-demo/404)    |
-| Under Construction       | [Open the link](https://adminbold.com/bootstrap-demo/under-construction)    |
-| Settings       | [Open the link](https://adminbold.com/bootstrap-demo/settings)    |
-| Pricing Table       | [Open the link](https://adminbold.com/bootstrap-demo/pricing-table)    |
-| Search Page       | [Open the link](https://adminbold.com/bootstrap-demo/search-page)    |
+| Shopping Cart | [Open the link](https://adminbold.com/bootstrap-demo/shopping-cart) |
+| Customers | [Open the link](https://adminbold.com/bootstrap-demo/customers)    |
+| Invoices | [Open the link](https://adminbold.com/bootstrap-demo/invoices)     |
+| Chat app | [Open the link](https://adminbold.com/bootstrap-demo/chats)        |
+| Email app | [Open the link](https://adminbold.com/bootstrap-demo/email)        |
+| Todo app | [Open the link](https://adminbold.com/bootstrap-demo/todo-list)    |
+| Profile | [Open the link](https://adminbold.com/bootstrap-demo/profile-posts)  |
+| Users | [Open the link](https://adminbold.com/bootstrap-demo/user-list)  |
+| Login | [Open the link](https://adminbold.com/bootstrap-demo/login)  |
+| Register | [Open the link](https://adminbold.com/bootstrap-demo/register)  |
+| 404 page | [Open the link](https://adminbold.com/bootstrap-demo/404)  |
+| Under Construction | [Open the link](https://adminbold.com/bootstrap-demo/under-construction)  |
+| Settings | [Open the link](https://adminbold.com/bootstrap-demo/settings)  |
+| Pricing Table | [Open the link](https://adminbold.com/bootstrap-demo/pricing-table)  |
+| Search Page | [Open the link](https://adminbold.com/bootstrap-demo/search-page)  |
 
 ## Plugins & Libraries
 
