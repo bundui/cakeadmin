@@ -4,7 +4,7 @@
 
 <a href="https://github.com/bundui/adminbold/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/bundui/adminbold/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/bundui/adminbold.svg" alt="GitHub issues open"></a>
-<a href="https://https://adminbold.com/bootstrap-demo/" rel="nofollow"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Live Demo"></a>
+<a href="https://https://adminbold.com/bootstrap-demo" rel="nofollow"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Live Demo"></a>
 
 
 > ### **Heyy 🤩**
