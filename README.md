@@ -6,6 +6,10 @@
 
 AdminBold is an admin dashboard template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. AdminBold reduces coding time and saves you time to quickly launch your new project.
 
+> ### **Heyy 🤩**
+> 
+> If you like this product, please support us by starring our GitHub repository!
+
 ## Preview
 
 [![](https://adminbold.com/images/adminbold-demo.png)](https://adminbold.com)
