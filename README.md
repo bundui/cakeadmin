@@ -4,15 +4,60 @@
 
 <h1 align="center">AdminBold</h1>
 
-<p align="center">
-  AdminBold is a free admin template based on Bootstrap 5.
-</p>
+AdminBold is an admin control panel template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. AdminBold reduces coding time and saves you time to quickly launch your new project
 
-**AdminBold** is a beautifully designed admin template with updated features. It has been developed with new generation, up-to-date libraries and plugins. It is very easy to use and develop. It has a very simple and understandable code structure. We developed this project with HTML, CSS, Javascript.
+## Preview
 
-You can use this project for free
+[![](https://adminbold.com/images/adminbold-demo.png)](https://adminbold.com)
 
-![](https://adminbold.com/images/adminbold-demo.png)
+## Installation
+
+```sh
+git clone https://github.com/bundui/adminbold.git
+```
+
+## Key Features
+
+- Bootstrap 5
+- SASS Supported
+- Light/Dark Mode
+- Horizontal & Vertical Layouts
+- Easily Customizable
+- Authentication Pages
+- 5 Icons Sets
+- 100+ HTML Pages
+- Chat App
+- Email App
+- Todo List App
+- Google Fonts
+- Fully Responsive Design
+
+## Plugins & Libraries
+
+| Plugin/Libraries  | Url                                                            |
+|----------|----------------------------------------------------------------|
+| Ckeditor | [Open the link](https://adminbold.com/bootstrap-docs/ckeditor) |
+| Clock Picker | [Open the link](https://adminbold.com/bootstrap-docs/clockpicker) |
+| DataTable | [Open the link](https://adminbold.com/bootstrap-docs/datatable) |
+| Datepicker | [Open the link](https://adminbold.com/bootstrap-docs/datepicker) |
+| Dropzone | [Open the link](https://adminbold.com/bootstrap-docs/file-upload) |
+| Form Repeater | [Open the link](https://adminbold.com/bootstrap-docs/form-repeater) |
+| Form Wizard | [Open the link](https://adminbold.com/bootstrap-docs/form-wizard) |
+| Input Mask | [Open the link](https://adminbold.com/bootstrap-docs/input-mask) |
+| Intro.js | [Open the link](https://adminbold.com/bootstrap-docs/introjs) |
+| Lightbox | [Open the link](https://adminbold.com/bootstrap-docs/lightbox) |
+| Nestable | [Open the link](https://adminbold.com/bootstrap-docs/nestable) |
+| Code Highlighter | [Open the link](https://adminbold.com/bootstrap-docs/code-highlighter) |
+| CKEditor | [Open the link](https://adminbold.com/bootstrap-docs/ckeditor) |
+| Range Slider | [Open the link](https://adminbold.com/bootstrap-docs/range-slider) |
+| Rating | [Open the link](https://adminbold.com/bootstrap-docs/rating) |
+| Select2 | [Open the link](https://adminbold.com/bootstrap-docs/select2) |
+| Tags Input | [Open the link](https://adminbold.com/bootstrap-docs/tags-input) |
+| JQVMAP | [Open the link](https://adminbold.com/bootstrap-docs/vector-map) |
+| Apex Chart | [Open the link](https://adminbold.com/bootstrap-docs/apexchart) |
+| Chart.js | [Open the link](https://adminbold.com/bootstrap-docs/chartjs) |
+| Justgage Chart | [Open the link](https://adminbold.com/bootstrap-docs/justgage) |
+| Morsis Chart | [Open the link](https://adminbold.com/bootstrap-docs/morsis) |
 
 ## Updates📦
 
@@ -22,44 +67,9 @@ Our goal is to keep this project up to date. So follow the updates that will be 
 
 We are making improvements to release React, Vuejs, Angular and Laravel versions of this admin template. Follow us to have other versions. Our work continues.
 
-## Features
+## Support
 
-- Bootstrap 5.x
-- SASS Supported
-- Light/Dark Mode
-- Horizontal & Vertical Layouts
-- Hidden Menu Version
-- Easily Customizable
-- Authentication Pages
-- 5 Icons Sets
-- 100+ HTML Pages
-- 3 Web Apps (Chat, Email & Todo List App)
-- Google Fonts
-- Fully Responsive Design
+If you have any questions or suggestions you can [send us a message](https://adminbold.com/contact). We are happy to receive notifications from you.
 
-## Plugins & Libraries
+Email: contact@adminbold.com
 
-- [Ckeditor](https://adminbold.com/bootstrap-docs/ckeditor)
-- [Clock Picker](https://adminbold.com/bootstrap-docs/clockpicker)
-- [DataTable](https://adminbold.com/bootstrap-docs/datatable)
-- [Datepicker](https://adminbold.com/bootstrap-docs/datepicker)
-- [Dropzone](https://adminbold.com/bootstrap-docs/file-upload)
-- [Form Repeater](https://adminbold.com/bootstrap-docs/form-repeater)
-- [Form Wizard](https://adminbold.com/bootstrap-docs/form-wizard)
-- [Input Mask](https://adminbold.com/bootstrap-docs/input-mask)
-- [Intro.js](https://adminbold.com/bootstrap-docs/introjs)
-- [Lightbox](https://adminbold.com/bootstrap-docs/lightbox)
-- [Nestable](https://adminbold.com/bootstrap-docs/nestable)
-- [Code Highlighter](https://adminbold.com/bootstrap-docs/code-highlighter)
-- [CKEditor](https://adminbold.com/bootstrap-docs/ckeditor)
-- [Range Slider](https://adminbold.com/bootstrap-docs/range-slider)
-- [Rating](https://adminbold.com/bootstrap-docs/rating)
-- [Select2](https://adminbold.com/bootstrap-docs/select2)
-- [Tags Input](https://adminbold.com/bootstrap-docs/tags-input)
-- [JQVMAP](https://adminbold.com/bootstrap-docs/vector-map)
-
-## Plugins & Libraries
-- [Apex Chart](https://adminbold.com/bootstrap-docs/apexchart)
-- [Chart.js](https://adminbold.com/bootstrap-docs/chartjs)
-- [Justgage Chart](https://adminbold.com/bootstrap-docs/justgage)
-- [Morsis Chart](https://adminbold.com/bootstrap-docs/morsis)
