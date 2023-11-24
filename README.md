@@ -32,6 +32,29 @@ git clone https://github.com/bundui/adminbold.git
 - Google Fonts
 - Fully Responsive Design
 
+## Pages
+| Page name      | Url                                                                  |
+|----------------|----------------------------------------------------------------------|
+| Dashboard      | [Open the link](https://adminbold.com/bootstrap-demo/dashboard)      |
+| Orders         | [Open the link](https://adminbold.com/bootstrap-demo/orders)         |
+| Products       | [Open the link](https://adminbold.com/bootstrap-demo/product-list)   |
+| Product detail | [Open the link](https://adminbold.com/bootstrap-demo/product-detail) |
+| Shopping Cart  | [Open the link](https://adminbold.com/bootstrap-demo/shopping-cart)  |
+| Customers      | [Open the link](https://adminbold.com/bootstrap-demo/customers)      |
+| Invoices       | [Open the link](https://adminbold.com/bootstrap-demo/invoices)       |
+| Chat app       | [Open the link](https://adminbold.com/bootstrap-demo/chats)          |
+| Email app      | [Open the link](https://adminbold.com/bootstrap-demo/email)          |
+| Todo app       | [Open the link](https://adminbold.com/bootstrap-demo/todo-list)      |
+| Profile        | [Open the link](https://adminbold.com/bootstrap-demo/profile-posts)    |
+| Users          | [Open the link](https://adminbold.com/bootstrap-demo/user-list)    |
+| Login          | [Open the link](https://adminbold.com/bootstrap-demo/login)    |
+| Register       | [Open the link](https://adminbold.com/bootstrap-demo/register)    |
+| 404 page       | [Open the link](https://adminbold.com/bootstrap-demo/404)    |
+| Under Construction       | [Open the link](https://adminbold.com/bootstrap-demo/under-construction)    |
+| Settings       | [Open the link](https://adminbold.com/bootstrap-demo/settings)    |
+| Pricing Table       | [Open the link](https://adminbold.com/bootstrap-demo/pricing-table)    |
+| Search Page       | [Open the link](https://adminbold.com/bootstrap-demo/search-page)    |
+
 ## Plugins & Libraries
 
 | Plugin/Libraries  | Url                                                            |
@@ -59,7 +82,11 @@ git clone https://github.com/bundui/adminbold.git
 | Justgage Chart | [Open the link](https://adminbold.com/bootstrap-docs/justgage) |
 | Morsis Chart | [Open the link](https://adminbold.com/bootstrap-docs/morsis) |
 
-## Updates📦
+## Documentation💡
+Get started with AdminBold, a developer friendly & highly customizable Bootstrap 5 admin template, featuring hundreds of UI components, forms, tables, charts and icons.
+Do you not know how to use the AdminBold template? No problem. You can review the [documentation](https://adminbold.com/bootstrap-docs/introduction).
+
+## Updates 📦
 
 Our goal is to keep this project up to date. So follow the updates that will be released every month. We will also consider pull requests from you.
 
@@ -67,7 +94,7 @@ Our goal is to keep this project up to date. So follow the updates that will be 
 
 We are making improvements to release React, Vuejs, Angular and Laravel versions of this admin template. Follow us to have other versions. Our work continues.
 
-## Support
+## Support⚡️
 
 If you have any questions or suggestions you can [send us a message](https://adminbold.com/contact). We are happy to receive notifications from you.
 
