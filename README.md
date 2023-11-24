@@ -1,10 +1,11 @@
-<p align="center">
-  <img src="https://adminbold.com/logo.svg" alt="AdminBold is a free admin template based on Bootstrap 5." width="96">
-</p>
+# <img src="https://adminbold.com/logo.svg" alt="AdminBold is a free admin template based on Bootstrap 5." width="42"> AdminBold
 
-<h1 align="center">AdminBold</h1>
+**AdminBold** is an admin dashboard template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. AdminBold reduces coding time and saves you time to quickly launch your new project.
 
-AdminBold is an admin dashboard template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. AdminBold reduces coding time and saves you time to quickly launch your new project.
+<a href="https://github.com/bundui/adminbold/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+<a href="https://github.com/bundui/adminbold/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/bundui/adminbold.svg" alt="GitHub issues open"></a>
+<a href="https://https://adminbold.com/bootstrap-demo/" rel="nofollow"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Live Demo"></a>
+
 
 > ### **Heyy 🤩**
 > 
@@ -14,7 +15,7 @@ AdminBold is an admin dashboard template developed with Bootstrap 5. It comes wi
 
 [![](https://adminbold.com/images/adminbold-demo.png)](https://adminbold.com)
 
-## Installation
+## Download
 
 ```sh
 git clone https://github.com/bundui/adminbold.git
