@@ -1,11 +1,10 @@
-# <img src="https://adminbold.com/logo.svg" alt="AdminBold is a free admin template based on Bootstrap 5." width="42"> AdminBold
+# [AdminBold](https://adminbold.com/bootstrap-demo/dashboard) ![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fbundui%2Fadminbold)
 
 **AdminBold** is an admin dashboard template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. AdminBold reduces coding time and saves you time to quickly launch your new project.
 
 <a href="https://github.com/bundui/adminbold/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/bundui/adminbold/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/bundui/adminbold.svg" alt="GitHub issues open"></a>
 <a href="https://adminbold.com/bootstrap-demo" rel="nofollow"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Live Demo"></a>
-
 
 > ### **Heyy 🤩**
 > 
