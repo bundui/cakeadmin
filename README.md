@@ -1,4 +1,4 @@
-# [AdminBold](https://adminbold.com/bootstrap-demo/dashboard) ![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fbundui%2Fadminbold)
+# [AdminBold](https://adminbold.com) ![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fbundui%2Fadminbold)
 
 **AdminBold** is an admin dashboard template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. AdminBold reduces coding time and saves you time to quickly launch your new project.
 
