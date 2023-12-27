@@ -10,8 +10,6 @@
 > 
 > If you like this product, please support us by starring our GitHub repository!
 
-## Preview
-
 [![](https://cakeadmin.com/images/cakeadmin-github-preview.png)](https://cakeadmin.com)
 
 ## Download
