@@ -4,7 +4,7 @@
 
 <a href="https://github.com/bundui/cakeadmin/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/bundui/cakeadmin/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/bundui/cakeadmin.svg" alt="GitHub issues open"></a>
-<a href="https://cakeadmin.com/bootstrap-demo" rel="nofollow"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Live Demo"></a>
+<a href="https://cakeadmin.com/docs/bootstrap" rel="nofollow"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Live Demo"></a>
 
 > ### **Heyy 🤩**
 > 
@@ -37,56 +37,56 @@ git clone https://github.com/bundui/cakeadmin.git
 ## Pages
 | Page name | Url |
 |--|--|
-| Dashboard | [Open the link](https://cakeadmin.com/bootstrap-demo/dashboard)    |
-| Orders | [Open the link](https://cakeadmin.com/bootstrap-demo/orders)       |
-| Products | [Open the link](https://cakeadmin.com/bootstrap-demo/product-list) |
-| Product detail | [Open the link](https://cakeadmin.com/bootstrap-demo/product-detail) |
-| Shopping Cart | [Open the link](https://cakeadmin.com/bootstrap-demo/shopping-cart) |
-| Customers | [Open the link](https://cakeadmin.com/bootstrap-demo/customers)    |
-| Invoices | [Open the link](https://cakeadmin.com/bootstrap-demo/invoices)     |
-| Chat app | [Open the link](https://cakeadmin.com/bootstrap-demo/chats)        |
-| Email app | [Open the link](https://cakeadmin.com/bootstrap-demo/email)        |
-| Todo app | [Open the link](https://cakeadmin.com/bootstrap-demo/todo-list)    |
-| Profile | [Open the link](https://cakeadmin.com/bootstrap-demo/profile-posts)  |
-| Users | [Open the link](https://cakeadmin.com/bootstrap-demo/user-list)  |
-| Login | [Open the link](https://cakeadmin.com/bootstrap-demo/login)  |
-| Register | [Open the link](https://cakeadmin.com/bootstrap-demo/register)  |
-| 404 page | [Open the link](https://cakeadmin.com/bootstrap-demo/404)  |
-| Under Construction | [Open the link](https://cakeadmin.com/bootstrap-demo/under-construction)  |
-| Settings | [Open the link](https://cakeadmin.com/bootstrap-demo/settings)  |
-| Pricing Table | [Open the link](https://cakeadmin.com/bootstrap-demo/pricing-table)  |
-| Search Page | [Open the link](https://cakeadmin.com/bootstrap-demo/search-page)  |
+| Dashboard | [Open the link](https://cakeadmin.com/demo/bootstrap/dashboard)    |
+| Orders | [Open the link](https://cakeadmin.com/demo/bootstrap/orders)       |
+| Products | [Open the link](https://cakeadmin.com/demo/bootstrap/product-list) |
+| Product detail | [Open the link](https://cakeadmin.com/demo/bootstrap/product-detail) |
+| Shopping Cart | [Open the link](https://cakeadmin.com/demo/bootstrap/shopping-cart) |
+| Customers | [Open the link](https://cakeadmin.com/demo/bootstrap/customers)    |
+| Invoices | [Open the link](https://cakeadmin.com/demo/bootstrap/invoices)     |
+| Chat app | [Open the link](https://cakeadmin.com/demo/bootstrap/chats)        |
+| Email app | [Open the link](https://cakeadmin.com/demo/bootstrap/email)        |
+| Todo app | [Open the link](https://cakeadmin.com/demo/bootstrap/todo-list)    |
+| Profile | [Open the link](https://cakeadmin.com/demo/bootstrap/profile-posts)  |
+| Users | [Open the link](https://cakeadmin.com/demo/bootstrap/user-list)  |
+| Login | [Open the link](https://cakeadmin.com/demo/bootstrap/login)  |
+| Register | [Open the link](https://cakeadmin.com/demo/bootstrap/register)  |
+| 404 page | [Open the link](https://cakeadmin.com/demo/bootstrap/404)  |
+| Under Construction | [Open the link](https://cakeadmin.com/demo/bootstrap/under-construction)  |
+| Settings | [Open the link](https://cakeadmin.com/demo/bootstrap/settings)  |
+| Pricing Table | [Open the link](https://cakeadmin.com/demo/bootstrap/pricing-table)  |
+| Search Page | [Open the link](https://cakeadmin.com/demo/bootstrap/search-page)  |
 
 ## Plugins & Libraries
 
 | Plugin/Libraries  | Url                                                            |
 |----------|----------------------------------------------------------------|
-| Ckeditor | [Open the link](https://cakeadmin.com/bootstrap-docs/ckeditor) |
-| Clock Picker | [Open the link](https://cakeadmin.com/bootstrap-docs/clockpicker) |
-| DataTable | [Open the link](https://cakeadmin.com/bootstrap-docs/datatable) |
-| Datepicker | [Open the link](https://cakeadmin.com/bootstrap-docs/datepicker) |
-| Dropzone | [Open the link](https://cakeadmin.com/bootstrap-docs/file-upload) |
-| Form Repeater | [Open the link](https://cakeadmin.com/bootstrap-docs/form-repeater) |
-| Form Wizard | [Open the link](https://cakeadmin.com/bootstrap-docs/form-wizard) |
-| Input Mask | [Open the link](https://cakeadmin.com/bootstrap-docs/input-mask) |
-| Intro.js | [Open the link](https://cakeadmin.com/bootstrap-docs/introjs) |
-| Lightbox | [Open the link](https://cakeadmin.com/bootstrap-docs/lightbox) |
-| Nestable | [Open the link](https://cakeadmin.com/bootstrap-docs/nestable) |
-| Code Highlighter | [Open the link](https://cakeadmin.com/bootstrap-docs/code-highlighter) |
-| CKEditor | [Open the link](https://cakeadmin.com/bootstrap-docs/ckeditor) |
-| Range Slider | [Open the link](https://cakeadmin.com/bootstrap-docs/range-slider) |
-| Rating | [Open the link](https://cakeadmin.com/bootstrap-docs/rating) |
-| Select2 | [Open the link](https://cakeadmin.com/bootstrap-docs/select2) |
-| Tags Input | [Open the link](https://cakeadmin.com/bootstrap-docs/tags-input) |
-| JQVMAP | [Open the link](https://cakeadmin.com/bootstrap-docs/vector-map) |
-| Apex Chart | [Open the link](https://cakeadmin.com/bootstrap-docs/apexchart) |
-| Chart.js | [Open the link](https://cakeadmin.com/bootstrap-docs/chartjs) |
-| Justgage Chart | [Open the link](https://cakeadmin.com/bootstrap-docs/justgage) |
-| Morsis Chart | [Open the link](https://cakeadmin.com/bootstrap-docs/morsis) |
+| Ckeditor | [Open the link](https://cakeadmin.com/docs/bootstrap/ckeditor) |
+| Clock Picker | [Open the link](https://cakeadmin.com/docs/bootstrap/clockpicker) |
+| DataTable | [Open the link](https://cakeadmin.com/docs/bootstrap/datatable) |
+| Datepicker | [Open the link](https://cakeadmin.com/docs/bootstrap/datepicker) |
+| Dropzone | [Open the link](https://cakeadmin.com/docs/bootstrap/file-upload) |
+| Form Repeater | [Open the link](https://cakeadmin.com/docs/bootstrap/form-repeater) |
+| Form Wizard | [Open the link](https://cakeadmin.com/docs/bootstrap/form-wizard) |
+| Input Mask | [Open the link](https://cakeadmin.com/docs/bootstrap/input-mask) |
+| Intro.js | [Open the link](https://cakeadmin.com/docs/bootstrap/introjs) |
+| Lightbox | [Open the link](https://cakeadmin.com/docs/bootstrap/lightbox) |
+| Nestable | [Open the link](https://cakeadmin.com/docs/bootstrap/nestable) |
+| Code Highlighter | [Open the link](https://cakeadmin.com/docs/bootstrap/code-highlighter) |
+| CKEditor | [Open the link](https://cakeadmin.com/docs/bootstrap/ckeditor) |
+| Range Slider | [Open the link](https://cakeadmin.com/docs/bootstrap/range-slider) |
+| Rating | [Open the link](https://cakeadmin.com/docs/bootstrap/rating) |
+| Select2 | [Open the link](https://cakeadmin.com/docs/bootstrap/select2) |
+| Tags Input | [Open the link](https://cakeadmin.com/docs/bootstrap/tags-input) |
+| JQVMAP | [Open the link](https://cakeadmin.com/docs/bootstrap/vector-map) |
+| Apex Chart | [Open the link](https://cakeadmin.com/docs/bootstrap/apexchart) |
+| Chart.js | [Open the link](https://cakeadmin.com/docs/bootstrap/chartjs) |
+| Justgage Chart | [Open the link](https://cakeadmin.com/docs/bootstrap/justgage) |
+| Morsis Chart | [Open the link](https://cakeadmin.com/docs/bootstrap/morsis) |
 
 ## Documentation💡
 Get started with CakeAdmin, a developer friendly & highly customizable Bootstrap 5 admin template, featuring hundreds of UI components, forms, tables, charts and icons.
-Do you not know how to use the CakeAdmin template? No problem. You can review the [documentation](https://cakeadmin.com/bootstrap-docs/introduction).
+Do you not know how to use the CakeAdmin template? No problem. You can review the [documentation](https://cakeadmin.com/docs/bootstrap/introduction).
 
 ## Updates 📦
 
