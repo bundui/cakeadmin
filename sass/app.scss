@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$font-family-base: 'Plus Jakarta Sans', sans-serif;
+$font-size-base: '16px';
+$primary: #5149e5;
+
+// merge with existing $theme-colors map
+$theme-colors: map-merge($theme-colors, (
+    "primary": $primary
+));
+
+$min-contrast-ratio: 2;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+
+:root {
+    --bs-body-line-height: 1.65;
+}
+
+.intro {
+    background-color: darken($primary, 40%);
+    color: #fff;
+    min-height: 70px;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro .shape {
+    margin-top: -9vw;
+    position: absolute
+}
+
+.intro .text-muted {
+    color: #b3c2ce !important
+}
+
+.bg-light {
+    background-color: #eceffc;
+}
+
+.into-btn {
+    background-color: white;
+
+    &:hover, &:focus {
+        background-color: white;
+        opacity: .85;
+        color: black;
+    }
+}
+
+#social-links {
+    ul {
+        padding: 0;
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        @media (max-width: 992px) {
+            flex-direction: row;
+            gap: 20px;
+        }
+        li {
+            list-style-type: none;
+            font-size: 25px;
+        }
+    }
+}
+
+main {
+    min-height: calc(100vh - 130px - 125px);
+}
+
+article {
+    &.blog {
+        p {
+            line-height: 1.8;
+        }
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        pre code {
+            border-radius: 7px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+section:not(.intro) {
+    padding: 50px 0;
+    .section-header {
+        margin-bottom: 30px;
+    }
+}
+
+section.lg {
+    padding: 100px 0;
+    @media (max-width: 992px) {
+        padding: 50px 0;
+    }
+    .section-header {
+        margin-bottom: 50px;
+        @media (max-width: 992px) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+footer {
+    background-color: darken($primary, 45%);
+    padding: 30px 0;
+    color: white;
+    a {
+        color: darken(white, 20%);
+        &:hover {
+            color: white;
+        }
+    }
+
+    .social {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+article {
+    h4 {
+        margin-bottom: 13px;
+        margin-top: 30px;
+        font-weight: 600;
+    }
+}
