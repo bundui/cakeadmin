@@ -1,0 +1,35 @@
+body.top-menu {
+
+    .header {
+        .logo {
+            display: block;
+        }
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .layout-wrapper {
+        margin-left: 0;
+        @media (min-width: 1400px) {
+            max-width: 1320px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .header .header-menu ul.navbar-nav>li.open>a {
+            background: none !important;
+            border-color: transparent !important;
+        }
+    }
+}
+
+/*
+
+The top menu is part of the header section.
+Therefore, other style codes for the parent menu are managed from the ./components/header.scss file
+
+*/

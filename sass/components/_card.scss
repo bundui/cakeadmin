@@ -1,0 +1,44 @@
+.card {
+    border: none;
+    // background: none;
+    transition: transform .3s;
+
+    &.card-hover:hover {
+        transform: scale(1.01);
+    }
+
+    &.card-selected {
+        box-shadow: 0 0 0 2px $primary;
+        transform: scale(1.02);
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        border: $card-border-width solid $card-border-color;
+    }
+
+    .card-header, .card-footer {
+        background: none;
+    }
+
+    &.widget {
+        background: none;
+
+        .card-header {
+            background-color: #f5f4fe;
+            border-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0;
+            height: 50px;
+
+            & + .card-body {
+                background-color: white;
+                border-radius: $card-border-radius;
+            }
+        }
+    }
+}

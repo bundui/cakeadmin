@@ -1,0 +1,17 @@
+.irs {
+    .irs-single, .irs-to, .irs-from {
+        background: $primary;
+
+        &:before {
+            border-top-color: $primary;
+        }
+    }
+
+    .irs-handle {
+        border-color: $primary
+    }
+
+    .irs-bar {
+        background: $primary;
+    }
+}

@@ -1,0 +1,15 @@
+.dd-handle {
+    padding: 10px 20px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: $border-radius;
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+.dd-item > button {
+    margin: 10px 0;
+    margin-left: 5px;
+}

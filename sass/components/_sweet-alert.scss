@@ -1,0 +1,76 @@
+.swal2-modal {
+    border-radius: $border-radius;
+
+    .swal2-title {
+        font-size: 22px;
+    }
+
+    .swal2-text {
+        text-align: center;
+    }
+
+    .swal2-actions {
+
+        button {
+            border-radius: $border-radius;
+            padding: 0.375rem 0.75rem;
+        }
+
+        .swal2-confirm {
+            background: $primary;
+            color: color-contrast($primary);
+        }
+
+        .swal2-deny {
+            background: $light;
+            color: color-contrast($light)
+        }
+
+        .swal2-cancel {
+            background: $danger;
+            color: color-contrast($danger)
+        }
+    }
+
+    .swal2-icon.swal2-error {
+        border-color: $danger;
+
+        .swal2-x-mark-line-left, .swal2-x-mark-line-right {
+            background: $danger;
+        }
+    }
+
+    .swal2-icon.swal2-success {
+        .swal2-success-ring {
+            border-color: $success;
+        }
+
+        [class^=swal2-success-line] {
+            background: $success;
+        }
+    }
+
+    .swal2-icon.swal2-warning {
+        border-color: $warning;
+        color: $warning;
+    }
+
+    .swal2-icon.swal2-info {
+        border-color: $info;
+        color: $info;
+    }
+
+    .swal2-input {
+        @extend .form-control
+    }
+}
+
+.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step {
+    background: $primary;
+
+    & ~ .swal2-progress-step {
+        background: rgba($primary, .3);
+    }
+}
+
+

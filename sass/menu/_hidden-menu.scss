@@ -1,0 +1,47 @@
+body.hidden-menu {
+    .menu {
+        display: none;
+    }
+
+    .header {
+        .logos {
+            display: block;
+        }
+
+        .menu-toggle-btn {
+            display: block;
+        }
+    }
+
+    .menu {
+        display: none;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+        @include absolute-menu;
+
+        .menu-close-btn {
+            display: block;
+        }
+
+        .dropdown {
+            background-color: #f5f4fe;
+        }
+
+        &.open {
+            left: 0 !important;
+            opacity: 1;
+        }
+
+        &-body {
+            overflow: auto;
+            border-top-left-radius: 0;
+
+            ul li > a.active .nav-link-icon {
+                background-color: white;
+            }
+        }
+    }
+
+    .layout-wrapper {
+        margin-left: 0;
+    }
+}

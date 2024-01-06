@@ -1,0 +1,83 @@
+// My variables
+$default-avatar-size: 3rem;
+$default-avatar-state-size: .8rem;
+$header-height: 90px;
+$menu-width: 350px;
+$sidebar-width: 420px;
+$header-menu-width: 200px;
+
+// Social colors
+$facebook: #3b5998;
+$twitter: #55acee;
+$google: #db4437;
+$pinterest: #bd081c;
+$linkedin: #0077b5;
+$whatsapp: #43d854;
+$github: #00405d;
+$behance: #1769ff;
+$skype: #00aff0;
+
+// Bootstrap colors
+$primary: #5149e5;
+$secondary: #9932e7;
+$success: #05b171;
+$info: #25c2e3;
+$warning: #faae42;
+$danger: #ea4444;
+$light: #ededed;
+$dark: #293134;
+
+$border-radius: .50rem; // Custom border radius
+
+$dropdown-border-radius: $border-radius;
+
+$font-size-base: 0.875rem;
+
+$display-font-sizes: (
+    1: 5rem,
+    2: 4.5rem,
+    3: 4rem,
+    4: 3.5rem,
+    5: 3rem,
+    6: 2.5rem,
+    7: 2rem,
+    8: 1.8rem,
+);
+$display-font-weight: 400;
+
+$utilities: (
+    "opacity": (
+        property: opacity,
+        values: (
+            0: 0,
+            25: .25,
+            50: .5,
+            75: .75,
+            100: 1,
+        )
+    )
+);
+
+$enable-smooth-scroll: false;
+
+$input-btn-focus-box-shadow: 0 0 0 1px $primary;
+$form-select-focus-box-shadow: 0 0 0 1px $primary;
+
+$list-group-item-padding-y: calc(1.5rem / 2);
+$list-group-item-padding-x: 1.5rem;
+
+$card-spacer-y: 1.5rem;
+$card-spacer-x: 1.5rem;
+$card-border-radius: $border-radius * 2;
+
+$input-btn-padding-y: .675rem;
+$input-btn-padding-x: 1.25rem;
+
+$input-btn-padding-y-lg: 1rem;
+$input-btn-padding-x-lg: 1.5rem;
+
+// Form check input
+$form-check-input-width: 1.2em;
+$form-check-input-height: 1.2em;
+
+$dropdown-divider-bg: darken(white, 10%);

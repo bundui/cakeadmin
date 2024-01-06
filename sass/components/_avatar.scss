@@ -1,0 +1,223 @@
+a.avatar {
+    display: inline-block;
+    color: black;
+
+    &:hover {
+        opacity: .9;
+    }
+}
+
+.avatar {
+    display: inline-block;
+    margin-bottom: 0;
+    height: $default-avatar-size;
+    width: $default-avatar-size;
+    border-radius: 50%;
+
+    .avatar-text {
+        background: #d7d7d7;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        user-select: none;
+
+        i {
+            line-height: 20px;
+        }
+    }
+
+    &.avatar-primary {
+        .avatar-text {
+            background: $primary !important;
+            color: color-contrast($primary) !important;
+        }
+    }
+
+    &.avatar-secondary {
+        .avatar-text {
+            background: $secondary !important;
+            color: color-contrast($secondary) !important;
+        }
+    }
+
+    &.avatar-success {
+        .avatar-text {
+            background: $success !important;
+            color: color-contrast($success);
+        }
+    }
+
+    &.avatar-danger {
+        .avatar-text {
+            background: $danger !important;
+            color: color-contrast($danger) !important;
+        }
+    }
+
+    &.avatar-warning {
+        .avatar-text {
+            background: $warning !important;
+            color: color-contrast($warning) !important;
+        }
+    }
+
+    &.avatar-info {
+        .avatar-text {
+            background: $info !important;
+            color: color-contrast($info) !important;
+        }
+    }
+
+    &.avatar-light {
+        .avatar-text {
+            background: $light !important;
+            color: color-contrast($light) !important;
+        }
+    }
+
+    &.avatar-dark {
+        .avatar-text {
+            background: $dark !important;
+            color: color-contrast($dark) !important;
+        }
+    }
+
+    & > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &.avatar-sm {
+        height: $default-avatar-size - .8;
+        width: $default-avatar-size - .8;
+
+        .avatar-text {
+            font-size: 14px;
+
+            i {
+                line-height: 12px;
+            }
+        }
+
+        &.avatar-state-primary, &.avatar-state-success, &.avatar-state-danger, &.avatar-state-warning, &.avatar-state-info, &.avatar-state-secondary, &.avatar-state-light, &.avatar-state-dark {
+            &:before {
+                width: $default-avatar-state-size / 1.2;
+                height: $default-avatar-state-size / 1.2;
+            }
+        }
+    }
+
+    &.avatar-lg {
+        height: $default-avatar-size + 1.5;
+        width: $default-avatar-size + 1.5;
+
+        .avatar-text {
+            font-size: 30px;
+
+            i {
+                line-height: 30px;
+            }
+        }
+
+        &.avatar-state-primary, &.avatar-state-success, &.avatar-state-danger, &.avatar-state-warning, &.avatar-state-info, &.avatar-state-secondary, &.avatar-state-light, &.avatar-state-dark {
+            &:before {
+                width: $default-avatar-state-size * 1.1;
+                height: $default-avatar-state-size * 1.1;
+                right: 4px;
+            }
+        }
+    }
+
+    &.avatar-xl {
+        height: $default-avatar-size + 2.8;
+        width: $default-avatar-size + 2.8;
+
+        .avatar-text {
+            font-size: 40px;
+
+            i {
+                line-height: 40px;
+            }
+        }
+
+        &.avatar-state-primary, &.avatar-state-success, &.avatar-state-danger, &.avatar-state-warning, &.avatar-state-info, &.avatar-state-secondary, &.avatar-state-light, &.avatar-state-dark {
+            &:before {
+                width: $default-avatar-state-size * 1.3;
+                height: $default-avatar-state-size * 1.3;
+                top: 3px;
+                right: 3px;
+            }
+        }
+    }
+
+    &.avatar-state-primary, &.avatar-state-success, &.avatar-state-danger, &.avatar-state-warning, &.avatar-state-info, &.avatar-state-secondary, &.avatar-state-light, &.avatar-state-dark {
+        position: relative;
+
+        &:before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: $default-avatar-state-size;
+            height: $default-avatar-state-size;
+            border-radius: 50%;
+            top: -1px;
+            right: -1px;
+            border: 2px solid white;
+        }
+    }
+
+    &.avatar-state-primary:before {
+        background: $primary;
+    }
+
+    &.avatar-state-success:before {
+        background: $success;
+    }
+
+    &.avatar-state-danger:before {
+        background: $danger;
+    }
+
+    &.avatar-state-warning:before {
+        background: $warning;
+    }
+
+    &.avatar-state-info:before {
+        background: $info;
+    }
+
+    &.avatar-state-secondary:before {
+        background: $secondary;
+    }
+
+    &.avatar-state-light:before {
+        background: $light;
+    }
+
+    &.avatar-state-dark:before {
+        background: $dark;
+    }
+}
+
+.avatar-group {
+    display: inline-flex;
+
+    .avatar {
+        margin-right: -1rem;
+        border: 3px solid white;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+            position: relative;
+            z-index: 1;
+        }
+    }
+}

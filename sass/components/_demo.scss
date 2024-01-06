@@ -1,0 +1,199 @@
+.demo-icon-list {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: $border-radius;
+
+    &:hover {
+        background-color: darken(white, 5%)
+    }
+}
+
+.theme-customizer {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -25px;
+    z-index: 9998;
+    display: flex;
+    align-items: center;
+
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: $primary;
+        border: none;
+
+        i {
+            display: block;
+            animation-name: spin;
+            animation-duration: 2000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover {
+            background-color: darken($primary, 10%);
+        }
+    }
+
+    .theme-customizer-body {
+
+        display: none;
+
+        &.open {
+            display: block;
+        }
+
+        .theme-colors {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            border: 1px solid $primary;
+            background-color: white;
+            border-right: none;
+            padding: 0 10px;
+
+            a {
+                margin: 0 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+
+                &.active {
+                    &:before {
+                        content: "\e64c";
+                        font-family: themify;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card-body + .demo-code-preview {
+    border-top: 1px solid darken(white, 10%);
+}
+
+.demo-code-preview {
+    position: relative;
+    padding: 1rem 1.5rem;
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+
+    &:before {
+        content: attr(data-label);
+        display: none;
+        position: absolute;
+        top: -9px;
+        left: 20px;
+        @extend .text-muted;
+        letter-spacing: 1px;
+        background-color: inherit;
+        font-size: 11px;
+        padding: 0 5px;
+    }
+
+    pre {
+        overflow-x: hidden;
+        background: none;
+        padding: 0;
+        max-height: 500px;
+
+        code {
+            font-size: 14px;
+        }
+    }
+
+    &:hover {
+        pre {
+            overflow-x: auto;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .theme-switcher {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .theme-switcher {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        right: -250px;
+        top: 50%;
+        transform: translate(0, -50%);
+        user-select: none;
+        z-index: 9999;
+        transition: right .3s;
+
+        &.open {
+            right: 0;
+        }
+
+        .theme-switcher-button {
+            background-color: $primary;
+            color: white;
+            padding: 15px 20px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            cursor: pointer;
+
+            i {
+                font-size: 30px;
+                animation-name: spin;
+                animation-duration: 2000ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+        }
+
+        .theme-switcher-panel {
+            width: 250px;
+
+            .card {
+                margin-bottom: 0;
+                border: 1px solid $primary;
+                border-right: none;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+        }
+    }
+
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}

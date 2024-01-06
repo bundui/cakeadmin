@@ -1,0 +1,27 @@
+.daterangepicker {
+    border-color: darken(white, 10%);
+    border-radius: $border-radius;
+    overflow: hidden;
+
+    td.active {
+        background: $primary;
+
+        &:hover {
+            background: $primary;
+        }
+    }
+
+    .ranges li {
+        &.active {
+            background: $primary;
+        }
+    }
+
+    &.show-ranges .drp-calendar.left {
+        border-left-color: darken(white, 10%);
+    }
+
+    .drp-buttons {
+        border-top-color: darken(white, 10%);
+    }
+}

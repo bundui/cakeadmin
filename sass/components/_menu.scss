@@ -1,0 +1,192 @@
+.menu {
+    $menu: &;
+    z-index: 998;
+    width: $menu-width;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+
+    &-header {
+        padding: 0 1.5rem;
+        padding-bottom: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-logo {
+            display: flex;
+            align-items: center;
+            height: $header-height;
+            gap: 15px;
+
+            img {
+                width: 35px;
+            }
+
+            span {
+                font-size: 22px;
+                color: black;
+                font-weight: 600;
+            }
+        }
+
+        .menu-close-btn {
+            display: none;
+            background-color: white;
+            border-radius: $border-radius;
+            font-size: 25px;
+        }
+    }
+
+    &-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 1.5rem;
+        padding-top: 0;
+
+        .dropdown {
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: $border-radius;
+            padding: 15px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style-type: none;
+
+                &#{$menu}-divider {
+                    display: block;
+                    padding: 20px;
+                    margin-top: 20px;
+                    font-size: 12px;
+                    opacity: .6;
+
+                    &:first-child {
+                        margin-top: 0;
+                        padding-top: 0;
+                    }
+                }
+
+                & > a {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 20px;
+                    color: black;
+                    font-size: 15px;
+                    transition: background .2s, color .2s;
+                    border-radius: $border-radius * 10;
+                    border-right: 4px solid transparent;
+                    border-left: 4px solid transparent;
+
+                    .nav-link-icon {
+                        margin-right: 12px;
+                        font-size: 22px;
+                        line-height: 18px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        transition: transform .2s;
+                    }
+
+                    .badge {
+                        &.rounded-circle {
+                            width: 28px;
+                            height: 28px;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+
+                    .sub-menu-arrow {
+                        margin-left: 12px;
+                        opacity: .6;
+                        font-size: 13px;
+                        transition: transform 0.2s;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        &.rotate-in {
+                            transform: rotate(90deg);
+                        }
+                    }
+
+                    &:hover {
+                        color: $primary;
+
+                        &:not(.active) {
+                            .nav-link-icon {
+                                transform: scale(1.15);
+                            }
+                        }
+                    }
+
+                    &.active {
+                        position: relative;
+                        background: rgba($primary, .15);
+                        color: $primary;
+                        border-left-color: $primary;
+                        border-right-color: $primary;
+
+                        .nav-link-icon {
+                            background-color: #f5f4fe;
+                            font-size: 18px;
+                        }
+                    }
+
+                    &.disabled {
+                        cursor: no-drop;
+                        color: rgba(black, .5);
+                    }
+
+                    & + ul {
+                        display: none;
+
+                        li {
+                            a {
+                                padding-left: 67px;
+                            }
+                        }
+
+                        ul {
+                            box-shadow: none;
+                            margin: 0;
+                            padding: 0;
+                            border-left: none;
+
+                            li {
+                                a {
+                                    padding-left: 80px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.open {
+                    & > ul {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    &-footer {
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,23 @@
+$colors: (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "orange": $orange,
+    "yellow": $yellow,
+    "teal": $teal,
+    "cyan": $cyan,
+);
+
+@each $color, $value in $colors {
+    .bg-#{$color} {
+        background-color: rgba($value, .75) !important;
+    }
+}
+
+@each $color, $value in $colors {
+    .text-#{$color} {
+        color: $value !important;
+    }
+}
+

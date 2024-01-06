@@ -1,0 +1,5 @@
+@media print {
+    .menu, .header, .page-header, .content-footer {
+        display: none !important;
+    }
+}

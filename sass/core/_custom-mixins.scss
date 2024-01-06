@@ -1,0 +1,13 @@
+@mixin absolute-menu {
+    width: $menu-width;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: -110% !important;
+    opacity: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 9998 !important;
+    transition: all .2s;
+    background-color: white;
+}
