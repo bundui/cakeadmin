@@ -1,4 +1,4 @@
-# [CakeAdmin](https://cakeadmin.com) [![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fbundui%2Fcakeadmin)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fbundui%2Fcakeadmin&text=CakeAdmin%20is%20an%20admin%20dashboard%20template%20developed%20with%20Bootstrap%205.%20It%20comes%20with%20over%2030%20pre-built%20pages%20and%20more%20than%20100%20components.)
+# <img src="https://cakeadmin.com/logo.svg" alt="cakeadmin logo" width="50"/> [CakeAdmin](https://cakeadmin.com) [![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fbundui%2Fcakeadmin)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fbundui%2Fcakeadmin&text=CakeAdmin%20is%20an%20admin%20dashboard%20template%20developed%20with%20Bootstrap%205.%20It%20comes%20with%20over%2030%20pre-built%20pages%20and%20more%20than%20100%20components.)
 
 **CakeAdmin** is an admin dashboard template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. CakeAdmin reduces coding time and saves you time to quickly launch your new project.
 
