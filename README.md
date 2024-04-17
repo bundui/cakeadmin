@@ -2,15 +2,13 @@
 
 **CakeAdmin** is an admin dashboard template developed with Bootstrap 5. It comes with over 30 pre-built pages and more than 100 components. CakeAdmin reduces coding time and saves you time to quickly launch your new project.
 
+⭐ ⭐ ⭐ Do not forget to star (Top right of this page) it if you like the theme ⭐ ⭐ ⭐
+
+[![](https://cakeadmin.com/images/cakeadmin-github-preview.png)](https://cakeadmin.com)
+
 <a href="https://github.com/bundui/cakeadmin/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/bundui/cakeadmin/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/bundui/cakeadmin.svg" alt="GitHub issues open"></a>
 <a href="https://cakeadmin.com/docs/bootstrap" rel="nofollow"><img src="https://img.shields.io/badge/demo-online-green.svg" alt="Live Demo"></a>
-
-> ### **Heyy 🤩**
-> 
-> If you like this product, please support us by starring our GitHub repository!
-
-[![](https://cakeadmin.com/images/cakeadmin-github-preview.png)](https://cakeadmin.com)
 
 ## Download
 
