@@ -4,7 +4,9 @@
 
 ⭐ ⭐ ⭐ Do not forget to star (Top right of this page) it if you like the theme ⭐ ⭐ ⭐
 
-[![](https://cakeadmin.com/images/cakeadmin-github-preview.png)](https://cakeadmin.com)
+[![](https://i.ibb.co/3hm3HD7/786shots-so.png)](https://cakeadmin.com)
+
+[![](https://i.ibb.co/BV7YGM2/17shots-so.png)](https://cakeadmin.com)
 
 <a href="https://github.com/bundui/cakeadmin/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 <a href="https://github.com/bundui/cakeadmin/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/bundui/cakeadmin.svg" alt="GitHub issues open"></a>
